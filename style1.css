@@ -1,0 +1,35 @@
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    background :black ;
+    font-size: 30px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background :rgb(255, 255, 255) ;
+    font-size: 20px;
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 0, 0);
+    background :rgb(29, 165, 255) ;
+    font-size: 20px;
+}
+
+h6{
+    font-size: 20px;
+    color: aqua;
+}
+p{
+    color: brown;
+    font-size: 19px;
+
+}
