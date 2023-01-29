@@ -1,0 +1,75 @@
+p{
+    background:blue;
+    font-size: 30px ;
+    animation: colorAnimatyon  .2s infinite alternate;
+}
+
+/*@ keyframes colorAnimatyon {
+    from{
+         color: #520606;
+        background: #520606;
+       
+       
+        text-align:center;
+    }   
+
+to{
+    color: rgb(98, 0, 255);
+   
+}
+}*/
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background: blue;
+    margin: 30px;
+    border-radius: 50%;
+    color: aliceblue;
+    font-size: 30px;
+    animation: color  .5s infinite alternate ;
+}
+@keyframes color{
+    10%{
+        transform: rotate(20deg);
+    }
+    20%{
+        transform: rotate(40deg);
+    }
+    30%{
+        transform: rotate(60deg);
+    }
+    40%{
+        transform: rotate(80deg);
+    }
+    50%{
+        transform: rotate(100deg);
+    }
+    60%{
+        transform: rotate(120deg);
+    }
+    70%{
+        transform: rotate(140deg);
+    }
+    80%{
+        transform: rotate(160deg);
+    }
+    90%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(deg);
+    }
+
+
+
+}
+
+
+
+
+
+
+
